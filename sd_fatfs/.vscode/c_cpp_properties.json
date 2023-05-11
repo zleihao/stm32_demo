@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Hardware/key/**",
+                "${workspaceFolder}/Hardware/led/**",
+                "${workspaceFolder}/Hardware/sdio/**",
+                "${workspaceFolder}/Hardware/usart/**",
+                "${workspaceFolder}/Hardware/FATFS/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_STDPERIPH_DRIVER ",
+                "STM32F10X_HD"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
