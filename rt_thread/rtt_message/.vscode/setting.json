@@ -1,0 +1,9 @@
+{
+    "clangd.fallbackFlags": [
+        "-xc",
+        "-std=c11",
+        "-DUSE_STDPERIPH_DRIVER",
+        "-DSTM32F10X_HD",
+        "-IC:\\mingw64\\x86_64-w64-mingw32\\include"
+    ]
+}
