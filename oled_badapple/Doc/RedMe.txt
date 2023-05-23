@@ -1,0 +1,10 @@
+此驱动是基于CubeMx生成的LL库工程
+
+GPIO可以自己选择，但需要更改一下引脚标签，GPIO初始化状态为Hight
+
+GPIO标签:
+              D0   --> SCLK
+              D1   --> SDIN
+              RES  --> RST
+              DC   --> DC
+              CS   --> CS
